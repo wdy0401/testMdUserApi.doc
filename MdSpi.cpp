@@ -37,8 +37,9 @@ void CMdSpi::OnRspError(CThostFtdcRspInfoField *pRspInfo,
 
 void CMdSpi::OnFrontDisconnected(int nReason)
 {
-	cerr << "--->>> " << "OnFrontDisconnected" << endl;
-	cerr << "--->>> Reason = " << nReason << endl;
+	cout << "--->>> " << "OnFrontDisconnected" << endl;
+	cout << "Reasons\n\t0x1001 ÍøÂç¶ÁÊ§°Ü\n\t0x1002 ÍøÂçÐ´Ê§°Ü\n\t0x2001 ½ÓÊÕÐÄÌø³¬Ê±\n\t0x2002 ·¢ËÍÐÄÌøÊ§°Ü\n\t0x2003 ÊÕµ½´íÎó±¨ÎÄ"<<endl;
+	cout << "\tReason = " << nReason << endl;
 }
 		
 void CMdSpi::OnHeartBeatWarning(int nTimeLapse)

@@ -26,7 +26,7 @@ TThostFtdcPasswordType  PASSWORD = "888888";			// 用户密码
 //char *ppInstrumentID[] = {"IF1411"};	// 行情订阅列表 这样不可以 why 20141016 
 //看起来像最后一个不被处理 因为观察到订阅四个只输出了三个，订阅一个直接退出了
 char *ppInstrumentID[] = {"m1501","IF1411","IF1410","cu1501"};	// 行情订阅列表
-int iInstrumentID = 3;									// 行情订阅数量
+int iInstrumentID = 4;									// 行情订阅数量
 
 // 请求编号
 int iRequestID = 0;
